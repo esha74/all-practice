@@ -1,0 +1,274 @@
+prc-5 module2 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice 5</title>
+  <style>
+    .info-card {
+      width: 400px;
+      border: 2px solid #333;
+      padding: 10px;
+      overflow: hidden;
+    }
+    .info-card img {
+      float: left;
+      width: 20%;
+      margin-right: 10px;
+    }
+    .info-card p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="info-card">
+    <img src="https://via.placeholder.com/80" alt="Placeholder Image">
+    <p><strong>Title:</strong> Info Card</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo.</p>
+  </div>
+</body>
+</html>
+prc-6 module2 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice 6</title>
+  <style>
+    .container {
+      position: relative;
+      width: 500px;
+      height: 300px;
+      border: 2px solid #333;
+    }
+    .box {
+      position: absolute;
+      top: 200px;
+      left: 300px;
+      width: 100px;
+      height: 100px;
+      background: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">Box</div>
+  </div>
+</body>
+</html>
+prc-7 module 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice 7</title>
+  <style>
+    header {
+      position: sticky;
+      top: 0;
+      background: #333;
+      color: white;
+      padding: 10px;
+    }
+    section {
+      height: 1500px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>Sticky Header</header>
+  <section>Scroll down to see sticky behavior...</section>
+</body>
+</html>
+prc-8 module 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice 8</title>
+  <style>
+    .scrollable {
+      width: 300px;
+      height: 300px;
+      border: 2px solid #333;
+      overflow: scroll;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="scrollable">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis...
+  </div>
+</body>
+</html>
+prc-9 module 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice 9</title>
+  <style>
+    .content-box {
+      width: 200px;
+      height: 100px;
+      border: 2px solid #333;
+      overflow: hidden;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content-box">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi...
+  </div>
+</body>
+</html>
+prc-5 module 3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Right to Left</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: row-reverse;
+      background-color: #f4f4f4;
+      padding: 20px;
+      gap: 10px;
+    }
+    .item {
+      background: #333;
+      color: white;
+      padding: 20px;
+      flex: 1;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+  </div>
+</body>
+</html>
+prc-6
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Box Model</title>
+  <style>
+    .box {
+      margin: 30px;
+      border: 5px solid blue;
+      padding: 20px;
+      background: lightgray;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    This is a box demonstrating the CSS Box Model.
+  </div>
+</body>
+</html>
+prc-8
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Box Model</title>
+  <style>
+    .box {
+      margin: 30px;
+      border: 5px solid blue;
+      padding: 20px;
+      background: lightgray;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    This is a box demonstrating the CSS Box Model.
+  </div>
+</body>
+</html>
+prc-9
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Sizing</title>
+  <style>
+    .content-box, .border-box {
+      width: 200px;
+      height: 100px;
+      margin: 10px;
+      padding: 20px;
+      border: 5px solid blue;
+    }
+    .content-box {
+      box-sizing: content-box;
+      background: lightgreen;
+    }
+    .border-box {
+      box-sizing: border-box;
+      background: lightcoral;
+    }
+  </style>
+</head>
+<body>
+  <div class="content-box">Content-Box</div>
+  <div class="border-box">Border-Box</div>
+</body>
+</html>
+prc-10
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Centering</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: lightblue;
+    }
+    .child {
+      width: 100px;
+      height: 100px;
+      background: blue;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="child">Centered</div>
+  </div>
+</body>
+</html>
+
