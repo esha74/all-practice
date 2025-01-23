@@ -1,0 +1,286 @@
+assignment-1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Layout</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 5px 10px;
+    }
+    nav a:hover {
+      background: #555;
+      border-radius: 5px;
+    }
+    .container {
+      display: flex;
+    }
+    .leftbar, .sidebar {
+      width: 20%;
+      background: #f4f4f4;
+      padding: 10px;
+    }
+    .content {
+      width: 60%;
+      padding: 10px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Brand Logo</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="leftbar">Leftbar Content</div>
+    <div class="content">Main Content</div>
+    <div class="sidebar">Right Sidebar</div>
+  </div>
+  <footer>Footer Content</footer>
+</body>
+</html> 
+assignment-2 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Blog Layout</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 10px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      width: 100%;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    .main-content {
+      width: 70%;
+      float: left;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .main-content img {
+      float: left;
+      margin-right: 10px;
+      width: 150px;
+      height: 100px;
+    }
+    .sidebar {
+      width: 30%;
+      float: left;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .sidebar .scrollable {
+      height: 400px;
+      overflow: auto;
+      background: #f4f4f4;
+      padding: 10px;
+    }
+    footer {
+      clear: both;
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    @media screen and (max-width: 768px) {
+      .main-content, .sidebar {
+        width: 100%;
+        float: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Responsive Blog</h1>
+  </header>
+  <div class="container">
+    <div class="main-content">
+      <h2>Main Content</h2>
+      <img src="https://via.placeholder.com/150" alt="Thumbnail">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod libero in nisl tempus, et aliquam orci porta.</p>
+    </div>
+    <div class="sidebar">
+      <div class="scrollable">
+        <h3>Recent Posts</h3>
+        <ul>
+          <li>Post 1</li>
+          <li>Post 2</li>
+          <li>Post 3</li>
+          <li>Post 4</li>
+          <li>Post 5</li>
+          <li>Post 6</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer>
+    Footer Content
+  </footer>
+</body>
+</html>
+assignment-1 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Menu</title>
+  <style>
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background: #333;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 5px 10px;
+      padding: 10px;
+    }
+    nav a:hover {
+      background: #555;
+    }
+    @media screen and (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+</body>
+</html>
+assignment-2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header, footer {
+      background: #333;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    header nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    .main-content {
+      width: 70%;
+      padding: 10px;
+      background: #f4f4f4;
+    }
+    .sidebar {
+      width: 30%;
+      padding: 10px;
+      background: lightgray;
+    }
+    @media screen and (max-width: 768px) {
+      .main-content, .sidebar {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Blog</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="main-content">
+      <h2>Blog Post</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="sidebar">
+      <h3>Sidebar</h3>
+      <p>Recent Posts</p>
+    </div>
+  </div>
+  <footer>
+    Copyright © 2025
+  </footer>
+</body>
+</html>
+
+
