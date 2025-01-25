@@ -1,0 +1,861 @@
+Assignment 1
+
+
+
+
+
+Assignment1.html
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Assignment 1</title>
+
+</head>
+
+    <body>
+
+        <div class="main">
+
+
+
+            <!-- heading part -->
+
+            <div class="heading">
+
+                <div class="label-logo">
+
+                    <img src="logo.png">
+
+                </div>
+
+                <div class="heading-date">
+
+                    20 December 2010
+
+                </div>
+
+                <div class="heading-contact">
+
+                    CALL US ON <span id="cont">: +91-79-26400685</span>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- navbar -->
+
+            <div class="navbar">
+
+                <div>
+
+                    <button class="nav-btn-home" type="button" >HOME</button>
+
+                    <button class="nav-btn" type="button" >ABOUT US</button>
+
+                    <button class="nav-btn" type="button" >OUR SERVICE</button>
+
+                    <button class="nav-btn" type="button" >TESTIMONIALS</button>
+
+                    <button class="nav-btn" type="button" >CONTACT US</button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- banner -->
+
+             <div>
+
+                <img class="banner" src="slider_img1.gif" height="" width="">
+
+             </div>
+
+
+
+             <!-- Mediator-part -->
+
+            <div class="mid-part">
+
+                <!-- Request-left-part -->
+
+                  <div class="requiest-part">
+
+                     <h1 id="title-req">request a quote</h1>
+
+                        <form id="form-req" action="" method="">
+
+                            <label id="">Name</label>
+
+                            <input id="form-input" type="text" name="name">
+
+                            <label id="">Company Name</label>
+
+                            <input id="form-input" type="text" name="c-name">
+
+                            <label id="">Email Address</label>
+
+                            <input id="form-input" type="email" name="email">
+
+                            <label id="">City</label>
+
+                            <select id="form-input">
+
+                                <option></option>
+
+                                <option>Ahmedabad</option>
+
+                                <option>Gandhinagar</option>
+
+                                <option>Surat</option>
+
+                            </select>
+
+                            <label id="">Comment</label>
+
+                            <textarea id="form-input-comment" rows="3"></textarea>
+
+
+
+                            <input id="form-submit" type="submit" height="27px" width="80px" value="send">
+
+                            <input id="form-reset" type="reset" value="clear">
+
+                        </form>
+
+                  </div>
+
+                <!-- Main-right-part -->
+
+                  <div class="main-content">
+
+                    <h1 id="title-req">welcome to our company</h1>
+
+
+
+                    <p id="main-text">Lorem Ipsum is simply dummy text of the printing  and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+
+                        and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and
+
+                        </p>
+
+                   
+
+                    <h1 id="title-req">featured services</h1>
+
+                        <div class="main-serv">
+
+                            <div class="main-serv-item">
+
+                                <h2 id="serv-title">services title here</h2>
+
+                                <div style="display: flex; flex-direction:column;">
+
+                                    <img src="imghere.jpg">
+
+                                    <button id="main-read-btn" name="read">read more</button>
+
+                                </div>
+
+                            </div>
+
+                            <hr>
+
+                            <div class="main-serv-item">
+
+                                <h2 id="serv-title">services title here</h2>
+
+                                <div style="display: flex; flex-direction:column;">
+
+                                    <img src="imghere.jpg">
+
+                                    <button id="main-read-btn" name="read">read more</button>
+
+                                </div>
+
+                            </div>
+
+                            <hr>
+
+                            <div class="main-serv-item">
+
+                                <h2 id="serv-title">services title here</h2>
+
+                                <div style="display: flex; flex-direction:column;">
+
+                                    <img src="imghere.jpg">
+
+                                    <button id="main-read-btn" name="read">read more</button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                  </div>
+
+                 
+
+            </div>
+
+
+
+            <div class="footer-part">
+
+                <nav id="footer-nav">
+
+                    <a href="" id="footer-nav-item" >HOME</a>
+
+                    <a href="" id="footer-nav-item" >ABOUT US </a>
+
+                    <a href="" id="footer-nav-item" >OUR SERVICES</a>
+
+                    <a href="" id="footer-nav-item" >TESTIMONIALS</a>
+
+                    <a href="" id="footer-nav-item" >CONTACT US</a>
+
+                </nav>
+
+
+
+                <label id="footer-copyright">
+
+                    &copy; 2010, All rights reserved
+
+                </label>
+
+            </div>
+
+    </body>
+
+</html>
+
+
+
+
+
+
+
+styles.css
+
+
+
+.main{
+
+    margin: auto;
+
+    width: 1000px;
+
+   
+
+}
+
+
+
+/* heading part */
+
+.heading{
+
+    width: 100%;
+
+    height: 150px;
+
+    background-color:#b6D3F8 ;
+
+    border: 1px solid #135fb8;
+
+}
+
+.label-logo{
+
+    float: left;
+
+    margin: 50px 40px 50px;
+
+    text-align: center;
+
+}
+
+.heading-date{
+
+    float: right;
+
+    margin-right: 20px;
+
+    margin-top: 15px;
+
+}
+
+.heading-contact{
+
+    float: right;
+
+    margin-right: -120px;
+
+    margin-top: 120px;
+
+    font-size: small;
+
+}
+
+#cont{
+
+    font-size: x-large;
+
+    color: #135fb8;
+
+}
+
+
+
+
+
+
+
+/*  navbar  */
+
+.navbar{
+
+    height: 50px;
+
+    width: 100%;
+
+   
+
+}
+
+.nav-btn-home{
+
+    width: 185px;
+
+    height: 35px;
+
+    display: inline;
+
+    margin-top: 15px;
+
+    margin-left: -1px;
+
+    border-radius: 0px;
+
+    border-color: #135fb8;
+
+    background-color: white;
+
+    color: #135fb8;
+
+    font-weight: bolder;
+
+}
+
+.nav-btn{
+
+    width: 185px;
+
+    height: 35px;
+
+    display: inline;
+
+    margin-top: 15px;
+
+    margin-left: 15px;
+
+    background-color: #135fb8;
+
+    border-color: #135fb8;
+
+    color: #b6D3F8;
+
+    font-weight: bolder;
+
+    border: opx;
+
+}
+
+
+
+/* banner */
+
+.banner{
+
+    height: 262px;
+
+    width: 100%;
+
+    margin-top: 15px;
+
+    border: 1px solid #135fb8;
+
+}
+
+
+
+/* Mediator-part */
+
+.mid-part{
+
+    height: 430px;
+
+    width: 100%;
+
+    margin-top: 15px;
+
+   
+
+}
+
+
+
+        .requiest-part{
+
+            height: 100%;
+
+            width: 225px;
+
+            border: 1px solid #135fb8;
+
+            float: left;
+
+            background-color: #b6D3F8;
+
+        }
+
+         
+
+        #title-req{
+
+            color: #135fb8;
+
+            margin-left: 20px;
+
+            margin-top: 10px;
+
+            font-size: x-large;
+
+        }
+
+
+
+        #form-req{
+
+            margin: 20px;
+
+        }
+
+
+
+        #form-input{
+
+            width: 170px;
+
+            height: 27px;
+
+            margin-bottom: 10px;
+
+        }
+
+
+
+        #form-input-city{
+
+            width: 170px;
+
+            height: 27px;
+
+            margin-bottom: 10px;
+
+        }
+
+
+
+        #form-input-comment{
+
+            width: 170px;
+
+            margin-bottom: 10px;
+
+        }
+
+
+
+        #form-submit{
+
+            height: 27px;
+
+            width: 90px;
+
+            background-color: #135fb8;
+
+            border-radius: 5px;
+
+        }
+
+
+
+        #form-reset{
+
+            height: 27px;
+
+            width: 60px;
+
+            background-color: #135fb8;
+
+            border-radius: 5px;
+
+        }
+
+
+
+        .main-content{
+
+            height: 100%;
+
+            width: 766px;
+
+            border: 1px solid #135fb8;
+
+            float: right;
+
+        }
+
+
+
+        #main-text{
+
+            margin-left: 20px;
+
+        }
+
+
+
+        .main-serv{
+
+            display: flex;
+
+            flex-direction: row;
+
+            justify-content: space-evenly;
+
+            width: 80%;
+
+            margin: auto;
+
+            margin-top: 10px;
+
+        }
+
+
+
+        #serv-title{
+
+            margin: auto;
+
+            margin-bottom: 5px;
+
+            color: #ff3300;
+
+        }
+
+
+
+        #main-read-btn{
+
+            height: 27px;
+
+            width: 100px;
+
+            background-color: #b6D3F8;
+
+            border-radius: 5px;
+
+            margin: auto;
+
+            margin-top: 10px;
+
+        }
+
+.footer-part{
+
+    width: 100%;
+
+    height: 100px;
+
+    background-color:#b6D3F8 ;
+
+    border: 1px solid #135fb8;
+
+    margin-top: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+    #footer-nav{
+
+        margin-top: 20px;
+
+        text-align: center;
+
+    }
+
+        #footer-nav-item{
+
+        margin: 25px;
+
+        text-decoration: none;
+
+        color: black;
+
+        }
+
+
+
+    #footer-copyright{
+
+        text-align: center;
+
+        margin: auto;
+
+        margin-top: 30px;
+
+    }    Assignment 2
+ 
+ 
+Assignment2.html
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <style>
+        @media (max-width:768px){
+            .main-content-part{
+                overflow:hidden;
+            }
+        }
+        @media (max-width:1200px){
+            .main-content-part {
+                overflow: hidden;
+            }
+        }
+ 
+        body{
+            height: 2000px;
+            width: 100%;
+        }
+        .container{
+            height: 900px;
+            margin: auto;
+        }
+        .heading-sticky{
+            position: sticky;
+            top: 0;
+            height: 5%;
+            width: 100%;
+            background-color: rgb(173, 169, 169);
+            text-align: center;
+            font-size: xx-large;
+            color: white;
+            font-weight: bolder;
+        }
+ 
+        .sidebar{
+            height: 400px;
+            float: left;
+            width: 30%;
+            background-color: rgb(173, 169, 169);
+            overflow: auto;
+            align-items: center;
+            border: 2px solid black;
+        }
+        .item{
+            height: 50px;
+            width: 90%;
+            margin: 10px;
+            background-color:honeydew;
+            text-align: center;
+        }
+ 
+        .main-content-part
+        {
+            float: right;
+            width: 69%;
+            color: rgb(173, 169, 169);
+        }
+ 
+    </style>
+</head>
+<body>
+   
+     
+        <div style="width: 1000px;" class="container">
+            <div class="heading-sticky">
+                CSS
+            </div>
+       
+            <div class="section-part">
+                <div class="sidebar">
+                    <div class="item">Module1</div>
+                    <div class="item">Module2</div>
+                    <div class="item">Module3</div>
+                    <div class="item">Module4</div>
+                    <div class="item">Module5</div>
+                    <div class="item">Module6</div>
+                    <div class="item">Module7</div>
+                    <div class="item">Module8</div>
+                    <div class="item">Module1</div>
+                    <div class="item">Module2</div>
+                    <div class="item">Module3</div>
+                    <div class="item">Module4</div>
+                    <div class="item">Module5</div>
+                    <div class="item">Module6</div>
+                    <div class="item">Module7</div>
+                    <div class="item">Module8</div>
+                    <div class="item">Module1</div>
+                    <div class="item">Module2</div>
+                    <div class="item">Module3</div>
+                    <div class="item">Module4</div>
+                    <div class="item">Module5</div>
+                    <div class="item">Module6</div>
+                    <div class="item">Module7</div>
+                    <div class="item">Module8</div>
+                </div>
+                <div class="main-content-part">
+                    <img src="img1.jpeg" style="float: left; margin: 30px;">
+                   
+                    <p>
+   
+                        Module 2
+    What to learn
+    CSS Float Properties
+   
+    CSS Position Properties
+   
+    CSS Overflow Properties
+   
+    Practice Exercise
+    Practice 1
+    Parent div should contain 3 div inside. Div should be arranged in following manner.<br>
+    Practice 2
+    Practice position properties static, relative, fixed and absolute.<br>
+   
+   
+   
+   
+   
+                    </p>
+   
+                    <p>
+   
+                        Module 2
+    What to learn
+    CSS Float Properties
+   
+    CSS Position Properties
+   
+    CSS Overflow Properties
+   
+    Practice Exercise
+    Practice 1
+    Parent div should contain 3 div inside. Div should be arranged in following manner.<br>
+    Practice 2
+    Practice position properties static, relative, fixed and absolute.<br>
+    Practice 3
+    Suppose we have a div with specific height and width and we need to arrange more text into it. Use overflow properties.<br>
+   
+   
+   
+    https://www.w3schools.com/css/css_positioning.asp
+    https://www.w3schools.com/css/css_float.asp
+    Supported Files
+    HTML1.1.zip<br>
+    Videos
+   
+   
+    CSS Overflow Properties
+   
+    Practice Exercise
+    Practice 1
+    Parent div should contain 3 div inside. Div should be arranged in following manner.<br>
+    Practice 2
+    Practice position properties static, relative, fixed and absolute.<br>
+    Practice 3
+    Suppose we have a div with specific height and width and we need to arrange more text into it. Use overflow properties.<br>
+    Practice 4
+    Design a Two-Column Layout Using CSS Float Properties<br>
+    Create a webpage that includes a two-column layout using only float properties. The left column should act as a navigation menu and occupy 25% of the page width, while the right column should display the content and occupy the remaining 75%. Ensure that the layout is responsive and floats are properly cleared to prevent collapsing of the layout. Add some placeholder text in both columns to simulate real content.
+   
+    Practice 5
+    Create an Information Card Utilizing CSS Float<br>
+    Design a card layout for an info card where an image is floated to the left, taking up 20% of the card width, and textual information is aligned to its right. Use proper float clearing techniques to ensure the layout does not break. Add a border around the card and ensure proper spacing between the image and the text.
+   
+    Practice 6
+    Position a Box Using CSS Position Properties<br>
+    Design a webpage with a box element positioned at 200px from the top and 300px from the left of the viewport using 'absolute' positioning. Place this box inside a parent container using 'relative' positioning and ensure that the box's position is calculated with respect to the parent container. Add content in the parent container to check how absolute positioning behaves within it.
+   
+    Practice 7
+    Implement a Sticky Header Using CSS Position<br>
+    Create a webpage with a header that sticks to the top of the page when a user scrolls down. Use the CSS 'position: sticky;' property and ensure the header remains at the top until its parent container's boundary is reached. Add some placeholder content below the header to test the scrolling behavior.
+   
+    Practice 8
+    Create a Scrollable Div Using CSS Overflow Properties<br>
+    Design a div element with fixed dimensions (e.g., 300px by 300px) and add a significant amount of placeholder text that exceeds the dimensions of the div. Use CSS 'overflow: scroll;' to make the content inside the div scrollable. Customize the scrollbar if necessary to ensure usability and aesthetics.
+   
+    Practice 9
+    Hide Overflowing Text Using CSS Overflow<br>
+    Design a small content box where the text content intentionally exceeds the box size. Apply 'overflow: hidden;' to ensure the extra content is clipped and does not spill out of the box. Use CSS properties like padding and margin to style the content box appropriately.
+   
+    Assignment 2
+    Assignment Exercise
+    Assignment Exercise<br>
+    Assignment 1
+    Create Basic layout of the application which contain header, footer, leftbar and sidebar. Header keep brand logo and navigation bar for home, aboutus and contact us. Navigation should work properly
+    Assignment 2
+    Build a Responsive Blog Layout Incorporating Float, Position, and Overflow Properties
+    Functional Flow: Create a responsive blog webpage with three sections: a header, a main content area, and a sidebar. The header should be sticky at the top of the page and occupy the full width of the viewport. The main content and sidebar should appear side-by-side, implemented using CSS float properties. The sidebar should take up 30% of the width, and the main content should take up the remaining 70%. Ensure the layout is responsive and changes to a stacked layout on smaller screen sizes.
+    <br>
+    The sidebar should contain a scrollable div using 'overflow: auto;' that includes a list of recent posts. Add placeholder content in both the main content area and the sidebar for testing. The main content area should include at least one image floated to the left (e.g., a post thumbnail). Implement proper float clearing for all floated elements.
+   
+    Business Logic: Ensure that the sticky header works seamlessly across different screen sizes and remains visible while scrolling. The scrollable sidebar div should have a fixed height of 400px and display a vertical scrollbar when content exceeds this limit. The content in the main section should flow correctly around the floated image without breaking the layout.
+   
+    Use appropriate CSS margins and padding to ensure the layout looks neat and professional. Test the design on both mobile and desktop views to verify complete responsiveness and proper implementation of float, position, and overflow properties.
+    <br>
+   
+    Stylesheet
+    03 Inheritance and Cascading<br>
+    04 Application to the Page
+   
+   
+                    </p>
+                </div>
+            </div>
+        </div>
+       
+</body>
+</html> 
